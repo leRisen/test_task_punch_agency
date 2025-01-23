@@ -7,11 +7,13 @@
 
 1. `git clone https://github.com/leRisen/test_task_punch_agency.git`
 2. `composer install`
-3. `npm install`
-4. `npm run build`
-5. `cp .env.example .env`
-6. `php artisan migrate --seed`
-7. `php artisan serve`
+3. `cp .env.example .env`
+4. `php artisan key:generate`
+5. `php artisan migrate --seed`
+6. `npm install`
+7. `npm run build`
+8. `php artisan migrate --seed`
+9. `php artisan serve`
 > данные для входа (login: test, password: password)
 
 **Не забудьте поднять очереди для работы уведомлений**
