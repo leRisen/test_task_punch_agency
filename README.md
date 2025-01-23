@@ -7,15 +7,17 @@
 
 1. `git clone https://github.com/leRisen/test_task_punch_agency.git`
 2. `composer install`
-3. `cp .env.example .env`
-4. `php artisan migrate --seed`
-5. `php artisan serve`
+3. `npm install`
+4. `npm run build`
+5. `cp .env.example .env`
+6. `php artisan migrate --seed`
+7. `php artisan serve`
 > данные для входа (login: test, password: password)
 
 **Не забудьте поднять очереди для работы уведомлений**
 `php artisan queue:work`
 
-## Telegram bot & Google Sheets
+## Telegram Bot & Google Sheets (env)
 
 Google Service Account Path: `storage/app/private/google-service-account.json`
 ```
