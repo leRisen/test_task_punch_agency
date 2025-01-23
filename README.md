@@ -1,7 +1,7 @@
 # Тестовое задание "Punch Agency"
 
 #### [Описание](TASK.md)
-#### [Коллекция Postman](Test Task API.postman_collection.json)
+#### [Коллекция Postman](api.postman_collection.json)
 
 ## Инструкция к запуску
 
